@@ -1,0 +1,19 @@
+.buttonBody {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-family: 'Inter';
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--textColor);
+    border: 0.1rem solid var(--textColor);
+    background-color: var(--bgColor);
+}
+
+.icon {
+    margin-right: 0.5rem;
+}

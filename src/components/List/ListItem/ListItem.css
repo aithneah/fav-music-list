@@ -1,0 +1,25 @@
+.listItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid var(--lightColor);
+    border-radius: 4px;
+}
+
+.listItemIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+.listDeleteIcon {
+    cursor: pointer;
+}
+
+.listStarIcon {
+    margin-right: 1.3rem;
+    cursor: pointer;
+}

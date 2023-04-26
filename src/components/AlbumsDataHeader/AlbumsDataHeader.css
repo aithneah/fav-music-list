@@ -1,0 +1,28 @@
+.listHeader {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    border-top: 0.1rem solid var(--textColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sortBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sortedBy {
+    margin-right: 0.5rem;
+}
+
+.listIcon {
+    margin-right: 0.8rem;
+}
+
+.headerIcon {
+    cursor: pointer;
+}

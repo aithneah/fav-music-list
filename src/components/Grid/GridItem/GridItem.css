@@ -1,0 +1,23 @@
+.gridItemBody {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--lightColor);
+    padding: 1rem;
+    background-color: var(--bgColor);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.gridItemIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gridItemTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}

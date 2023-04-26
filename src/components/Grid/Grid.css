@@ -1,0 +1,12 @@
+.gridView {
+    display: grid; 
+    grid-template-columns: max-content max-content max-content max-content max-content; 
+    grid-template-rows: max-content max-content max-content; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . . ."
+      ". . . . ."
+      ". . . . ."; 
+      justify-content: space-between; 
+      margin-bottom: 2rem;
+}
